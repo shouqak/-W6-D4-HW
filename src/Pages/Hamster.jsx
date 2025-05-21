@@ -3,15 +3,15 @@ import React from "react"
 function Hamster() {
   return (
     <div
-      className="h-100 min-h-screen w-full flex items-center justify-center"
+      className=" w-full flex items-center justify-center"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(197, 126, 34, 0.3), rgba(255,255,255,0.7)), url('https://cdn.pixabay.com/photo/2019/02/24/15/32/hamster-4017846_1280.jpg')",
+          "linear-gradient(rgba(197, 126, 34, 0.3), rgba(255,255,255,0.7)), url('https://cdn.pixabay.com/photo/2016/08/07/18/11/hamster-1576771_1280.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="w-80 max-w-2xl mx-auto bg-neutral-50 bg-opacity-80 rounded-2xl shadow-2xl p-8 flex flex-col items-center text-center space-y-6">
+      <div className="w-80 max-w-2xl my-15 mx-auto bg-neutral-50 bg-opacity-80 rounded-2xl shadow-2xl p-8 flex flex-col items-center text-center space-y-6">
         <img
           src="https://cdn-icons-png.flaticon.com/128/1959/1959988.png"
           alt="Pet Icon"
